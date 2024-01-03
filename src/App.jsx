@@ -262,7 +262,7 @@ function Page() {
               {openQuestion === 3 && (
                 <div className={`${style.rectAns} df al`}>
                   <div className={style.thirdContent}>
-                    <div className="df al jc g-2">
+                    <div className="df al  g-2">
                       <div className={style.box}>
                         <p>
                           <b>Fri 18 Nov, 2023</b>
@@ -387,7 +387,7 @@ function Page() {
 
               {openQuestion === 7 && (
                 <div className={`${style.rectAns} df al`}>
-                  <div className={style.sevenContent}>
+                  <div className={style.seventhContent}>
                     <div className={style.rectangle}>
                       <Pharmacy />
                     </div>
@@ -417,7 +417,10 @@ function Page() {
               </div>
               {openQuestion === 8 && (
                 <div className={style.rectAns}>
+                  <div className={style.eighthContent}>
                   <Invoice />
+                  </div>
+                 
                 </div>
               )}
 
@@ -439,6 +442,7 @@ function Page() {
               </div>
               {openQuestion === 9 && (
                 <div className={`${style.rectAns} df al`}>
+                  <div className={style.ninthContentPro}> 
                   <div className={style.ninthContent}>
                     <div className={style.rectangle}>
                       <p>
@@ -452,6 +456,7 @@ function Page() {
                       </p>
                       <p>10:02</p>
                     </div>
+                  </div>
                   </div>
                 </div>
               )}
@@ -565,7 +570,9 @@ function Page() {
               </div>
               {openQuestion === 14 && (
                 <div className={`${style.rectAns} df al`}>
-                  <div className={style.ninthContent}>
+                  <div className={style.ninthContentPro}>
+                    <div className={style.ninthContent}>
+
                     <div className={style.rectangle}>
                       <p>
                         <b>Started</b>
@@ -578,6 +585,7 @@ function Page() {
                       </p>
                       <p>10:02</p>
                     </div>
+                  </div>
                   </div>
                 </div>
               )}

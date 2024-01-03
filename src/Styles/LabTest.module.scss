@@ -1,9 +1,11 @@
 .labtests{
     display: flex;
     align-items: center;
+    width: 90%;
+    margin-inline: auto;
     
     gap: 10px;
-    width: 100%;
+    // width: 100%;
     .container{
         display: flex;
         align-items: center;

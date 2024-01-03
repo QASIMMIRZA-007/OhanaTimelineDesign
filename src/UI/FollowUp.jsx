@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../Styles/FollowUp.module.scss'
 function FollowUp() {
   return (
+    <div className={style.followupContainer}>
     <div className={style.followup}>
       <div className={style.container}>
         <div className={style.left}>
@@ -21,6 +22,7 @@ function FollowUp() {
         <button className={style.btnDel}>Delete</button>
         <button className={style.btnReshedule}>Reshedule</button></div>
       
+    </div>
     </div>
   )
 }

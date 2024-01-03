@@ -1,3 +1,8 @@
+.followupContainer{
+
+width: 90%;
+margin-inline: auto;
+
 .followup {
   width: 50%;
   background: #fafafa;
@@ -9,7 +14,7 @@
     justify-content: space-between;
     .left {
       display: flex;
-      gap: 5px;
+      gap: 7px;
       flex-direction: column;
       p {
         color: #958070;
@@ -56,6 +61,7 @@
       background: transparent;
     }
   }
+}
 }
 
 @media screen and (max-width:992px) {

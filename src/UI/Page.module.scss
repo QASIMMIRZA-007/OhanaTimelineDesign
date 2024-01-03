@@ -2,6 +2,10 @@
   display: flex;
   width: 100%;
   margin-inline: auto;
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 20px;
   .left {
     // width: 100px;
     // height: 100vh;
@@ -13,6 +17,7 @@
       flex-direction: column;
       gap: 70px;
       margin-top: 20px;
+      margin-bottom: 20px;
       .minLeft {
         display: flex;
         align-items: center;
@@ -78,6 +83,7 @@
       .mainLeft {
         margin-top: 20px;
         width: 70%;
+        margin-bottom: 20px;
         .rect {
           background: #fff;
           padding: 5px;
@@ -120,20 +126,22 @@
 
           .secContent {
             display: flex;
-            gap: 10px;
+            gap: 15px;
+            width: 90%;
+    margin-inline: auto;
             p {
               margin-bottom: 10px;
             }
-            .contentRight{
-              b{
-                color:  #271100;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+            .contentRight {
+              b {
+                color: #271100;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
               }
-              .doctorObj{
-                color:  #958070;
+              .doctorObj {
+                color: #958070;
                 font-size: 12px;
                 font-style: normal;
                 font-weight: 400;
@@ -143,9 +151,11 @@ line-height: normal;
           }
           .content {
             display: flex;
-            justify-content: space-around;
-            width: 100%;
+            /* justify-content: space-around; */
+            width: 90%;
+            margin-inline: auto;
             align-items: start;
+            gap: 40px;
             .first {
               display: flex;
               flex-direction: column;
@@ -205,7 +215,9 @@ line-height: normal;
             }
           }
           .thirdContent {
-            padding: 15px;
+            width: 90%;
+            margin-inline: auto;
+            // padding: 15px;
             .box {
               background: #ffff;
               padding: 15px;
@@ -234,23 +246,38 @@ line-height: normal;
             }
           }
           .forthContent {
+            width: 90%;
+            margin-inline: auto;
             .rectangle {
               display: flex;
               align-items: center;
               justify-content: space-between;
-              width: 100%;
+              width: 60%;
               border-radius: 4px;
               background: #f1e9e4;
               padding: 8px 15px;
-              gap: 90px;
+              // gap: 90px;
             }
           }
           .fifthContent {
-            width: 100%;
+            width: 90%;
+            margin-inline: auto;
           }
           .sixthContent {
-            width: 100%;
+            width: 90%;
+            margin-inline: auto;
           }
+          .seventhContent{
+            width: 90%;
+            margin-inline: auto;
+          }
+          .eighthContent{
+            width: 90%;
+            margin-inline: auto;
+          }
+          .ninthContentPro{ 
+            width: 90%;
+            margin-inline: auto;
           .ninthContent {
             display: flex;
             align-items: center;
@@ -268,6 +295,7 @@ line-height: normal;
               gap: 90px;
             }
           }
+        }
         }
       }
       .mainRight {
@@ -310,14 +338,14 @@ line-height: normal;
             margin-top: 8px;
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 8px;
             .cardRect {
               border-radius: 4px;
               background: #f1e9e4;
               display: flex;
               align-items: center;
               justify-content: space-between;
-              padding: 3px 6px;
+              padding: 10px;
               .prop1 {
                 color: #271100;
                 font-size: 12px;
@@ -372,6 +400,7 @@ line-height: normal;
                 display: flex;
                 align-items: center;
                 gap: 4px;
+                font-family: 'Nunito Sans';
                 cursor: pointer;
                 .button {
                   font-size: 12px;
@@ -380,6 +409,7 @@ line-height: normal;
                   line-height: normal;
                   display: flex;
                   align-items: center;
+                  font-family: 'Nunito Sans';
                 }
               }
               .button2 {
@@ -388,7 +418,7 @@ line-height: normal;
                 font-weight: 700;
                 line-height: normal;
                 color: #f76d00;
-                background:  rgba(247, 109, 0, 0.2);
+                background: rgba(247, 109, 0, 0.2);
 
                 border-radius: 6px;
                 // opacity: 0.1;
@@ -413,20 +443,18 @@ line-height: normal;
             margin-top: 10px;
           }
           button {
-            padding: 5px 9px;
+            padding: 6px 11px;
             margin: 3px;
             cursor: pointer;
-
             border-radius: 7px;
             border: 1px solid #d4cfcc;
             background: #fff;
             color: #958070;
-
             font-size: 12px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-           
+            font-family: 'Nunito Sans';
           }
         }
         .videoCall {
@@ -469,6 +497,11 @@ line-height: normal;
           margin-top: 0;
           width: 100%;
           .rectAns {
+            .forthContent{
+              .rectangle{
+                width: 100%;
+              }
+            }
             .ninthContent {
               width: 100%;
             }
@@ -510,6 +543,11 @@ line-height: normal;
         .mainLeft {
           width: 100%;
           .rectAns {
+            .forthContent{ 
+            .rectangle{
+              width: 100%;
+            }
+          }
             .content {
               gap: 20px;
             }
