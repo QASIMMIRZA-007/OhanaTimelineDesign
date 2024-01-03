@@ -30,6 +30,9 @@ background: #fafafa;
 .g-1{
   gap: 9px;
 }
+.g-5{
+  gap: 5px;
+}
 .icon{
   cursor: pointer;
   height:  15px;
@@ -68,10 +71,16 @@ border: none;
 }
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 button{
 cursor: pointer;
 }
 .g-0{
 gap: 5px;
+}
+.flexx{
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }

@@ -222,14 +222,14 @@ function Page() {
                       <p>
                         <b>Dr. John Doe</b>
                       </p>
-                      <div className="df g-1 al">
-                        <div className="df g-1 ">
+                      <div className="flexx">
+                        <div className="df g-5 ">
                           <span>
                             <CiStethoscope className="doctorIcon" />{" "}
                           </span>
                           <span className={style.doctorObj}>5 years</span>
                         </div>
-                        <div className="df g-1 ">
+                        <div className="df g-5 ">
                           <span>
                             <FaGraduationCap className="doctorIcon"  />
                           </span>

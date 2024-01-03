@@ -257,6 +257,9 @@
               background: #f1e9e4;
               padding: 8px 15px;
               // gap: 90px;
+              p{
+                font-size: 12px;
+              }
             }
           }
           .fifthContent {
@@ -315,7 +318,10 @@
               display: flex;
               // align-items: center;
               flex-direction: column;
-              gap: 4px;
+              gap: 5px;
+              // margin-top: 4px;
+              margin-bottom: 8px;
+              justify-content: center;
               p {
                 color: #f76d00;
                 font-weight: 700;
@@ -335,7 +341,7 @@
             }
           }
           .cardRects {
-            margin-top: 8px;
+            margin-top: 6px;
             display: flex;
             flex-direction: column;
             gap: 8px;
@@ -503,7 +509,7 @@
               }
             }
             .ninthContent {
-              width: 100%;
+              width: 100% !important;
             }
           }
         }
