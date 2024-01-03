@@ -1,0 +1,52 @@
+.accordian {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .rect {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // width: 400px;
+      background: #fafafa;
+      position: relative;
+      padding: 10px;
+      margin-top: 1px;
+      border-radius: 5px 5px 0px 0;
+      width: 90%;
+      p {
+        color: #271100;
+        font-size: 12px;
+
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    .rectAns {
+      border-radius: 0 0 5px 5px;
+      // width: 400px;
+      background: #fafafa;
+      position: relative;
+      padding: 10px;
+      transition: #00ff00 0.5s ease, #000 0.5s ease;
+
+      width: 90%;
+      
+      p {
+        color: #271100;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+}

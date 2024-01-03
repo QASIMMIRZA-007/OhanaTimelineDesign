@@ -1,0 +1,49 @@
+.medicalNotes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    .container{
+       
+        .box{
+            border-radius: 5px;
+border:  #F1E9E4;
+background:  #fafafa;
+padding: 10px;
+display: flex;
+flex-direction: column;
+gap: 6px;
+.icon{
+    color: #F76D00;
+    font-size: 25px;
+
+}
+.icon1{
+    color: #009DDD; font-size: 25px;
+    
+}
+.icon2{
+color: #25D366; font-size: 25px;
+}
+.icon3{
+    color: #271100; font-size: 25px;
+}
+p{
+    color:  #958070;
+text-align: justify;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+b{
+    color: #271100;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+// width: 200px;
+}
+        }
+    }
+}

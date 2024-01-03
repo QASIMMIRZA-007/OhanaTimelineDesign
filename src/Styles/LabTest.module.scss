@@ -1,0 +1,74 @@
+.labtests{
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+    width: 100%;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fafafa;
+        padding: 20px;
+        width: 50%;
+        border-radius: 7px;
+        .left{
+            display: flex;
+            // align-items: center;
+            gap: 15px;
+            .subLeft{
+                .icon{
+color: #FF2116;
+font-size: 45px;
+                }
+
+            }
+            .subRight{
+                display: flex;
+                flex-direction: column;
+                // gap: 5px;
+                b{
+                    color:  #271100;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+                }
+                a{
+                    color:  #F76D00;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+                }
+            }
+        }
+        .right{
+            .date{
+                color: #958070;
+// text-align: right;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .labtests{
+        flex-wrap: wrap;
+        .container{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .labtests{
+        flex-wrap: wrap;
+        .container{
+            width: 100%;
+        }
+    }
+}

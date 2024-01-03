@@ -1,0 +1,70 @@
+.followup {
+  width: 50%;
+  background: #fafafa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      gap: 5px;
+      flex-direction: column;
+      p {
+        color: #958070;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .right {
+      display: flex;
+
+      flex-direction: column;
+      gap: 5px;
+      p {
+        color: #271100;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  .btnGrp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    
+    .btnDel {
+      color: #f76d00;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+      background: transparent;
+    }
+    .btnReshedule {
+      color: #25d366;
+      font-size: 14px;
+      border: none;
+      background: transparent;
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+    .followup{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .followup{
+        width: 100%;
+    }
+}

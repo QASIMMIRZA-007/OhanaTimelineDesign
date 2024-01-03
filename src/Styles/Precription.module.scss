@@ -1,0 +1,90 @@
+.precription {
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .container {
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+    gap: 50px;
+    .firstRow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .left {
+        .icon {
+          font-size: 30px;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        b {
+          color: #271100;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        p {
+          color: #958070;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      
+      }
+    
+    }
+    .secondRow{
+        b {
+            color: #271100;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          p {
+            color: #958070;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+    }
+    .thirdRow{
+        b {
+            color: #271100;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          p {
+            color: #958070;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+    }
+  }
+}
+
+
+@media screen and (max-width:992px){
+.precription{
+    width: 100%;
+}   
+}
+@media screen and (max-width:768px){
+    .precription{
+        width: 100%;
+    }   
+    }

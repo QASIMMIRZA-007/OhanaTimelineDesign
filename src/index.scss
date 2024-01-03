@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  font-family: 'Nunito Sans', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.doctorIcon{
+color: #009ddd;
+background: #fafafa;
+
+}
+.df{
+  display: flex;
+}
+.al{
+  align-items: center;
+}
+.jc{
+  justify-content: center;
+}
+.g-1{
+  gap: 9px;
+}
+.icon{
+  cursor: pointer;
+  height:  15px;
+}
+.iconDown{
+  cursor: pointer;
+  height:  16px;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.timeline{
+  margin-top: 20px;
+}
+.textOrg{
+ color:
+  #F76D00;
+
+}
+.p{
+  color: #000;
+  
+}
+.active{
+  border-radius: 7px;
+background: rgba(0, 157, 221, 0.2) !important;
+color: #009ddd !important;
+border: none;
+
+}
+.pointer{
+  cursor: pointer;
+}
+.g-2{
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+}
+button{
+cursor: pointer;
+}
+.g-0{
+gap: 5px;
+}

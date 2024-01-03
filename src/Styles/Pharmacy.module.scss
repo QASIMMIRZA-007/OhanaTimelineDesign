@@ -1,0 +1,37 @@
+.pharmacy{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #fafafa;
+        padding: 10px 20px;
+        border-radius: 5px;
+        .left{
+            .icon{
+             font-size: 40px;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            b{
+                color:  #271100;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+            p{
+                color:  #958070;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
